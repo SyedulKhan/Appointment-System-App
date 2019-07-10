@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="org.example.appointmentmanager_15330190.CreateAppointment">
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_page_title"
+        android:layout_marginBottom="20dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVTitleOfAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_of_appointment"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtVTitleOfAppointmentInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/txtVTimeOfAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/time_of_appointment"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtVTimeOfAppointmentInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtVDetailsOfAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/details_of_appointment"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/thesaurusBtn2"
+                android:onClick="thesaurusOutput2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thesaurus" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtVDetailsOfAppointmentInput"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:onClick="saveUserInputs"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <TextView
+            android:id="@+id/txtVThesaurusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thesaurus_text"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/thesaurusWordInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_word_here"
+                android:text="" />
+
+            <Button
+                android:id="@+id/thesaurusBtn"
+                android:onClick="thesaurusOutput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thesaurus" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewSearchedAppointmentPopUp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="org.example.appointmentmanager_15330190.ViewSelectedAppointment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_of_appointment"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVSearchedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_of_appointment"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVSearchedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details_of_appointment"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVSearchedDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/viewSearchedAppointmentMainMenuBtn"
+        android:onClick="returnToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_menu"/>
+</LinearLayout>

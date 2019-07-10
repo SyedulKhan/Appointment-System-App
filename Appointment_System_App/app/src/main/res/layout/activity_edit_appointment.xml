@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="org.example.appointmentmanager_15330190.EditAppointment">
+
+    <TextView
+        android:id="@+id/txtVEditPageHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/edit_appointment"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVEditTitleOfAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_of_appointment"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtVEditTitleOfAppointmentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/txtVEdEditTimeOfAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_of_appointment"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtVEditTimeOfAppointmentInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="time" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtVEditDetailsOfAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/details_of_appointment"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtVEditDetailsOfAppointmentInput"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"/>
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/update" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

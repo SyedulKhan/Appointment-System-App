@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AppointmentManager_15330190</string>
+    <string name="create_appointment">Create Appointment</string>
+    <string name="view_edit_appointment">View/Edit Appointment</string>
+    <string name="delete_appointment">Delete Appointment</string>
+    <string name="move_appointment">Move Appointment</string>
+    <string name="search">Search</string>
+
+
+    <string name="create_page_title">Create Appointment</string>
+    <string name="title_of_appointment">Title of Appointment:</string>
+    <string name="time_of_appointment">Time of Appointment:</string>
+    <string name="details_of_appointment">Details of Appointment:</string>
+    <string name="save">Save</string>
+
+
+    <string name="delete_appointments">Delete Appointment(s)</string>
+    <string name="enter_appointment_number_here">Enter Number</string>
+    <string name="deleteOne">Delete</string>
+    <string name="deleteAll">Delete All</string>
+
+    <string name="view_edit_appointments">View/Edit Appointments</string>
+    <string name="update">Update</string>
+    <string name="view_appointments">List of Appointments</string>
+    <string name="edit">Edit</string>
+    <string name="edit_appointment">Edit Appointment</string>
+    <string name="move_appointments">Move Appointments</string>
+    <string name="thesaurus">Thesaurus</string>
+    <string name="thesaurus_text">Type a word in the text box bellow and press the thesaurus button to find synonyms</string>
+    <string name="enter_word_here">Enter Word Here</string>
+    <string name="search_an_appointment">Search an Appointment</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="appointment_manager">Appointment Manager</string>
+    <string name="create">Create</string>
+    <string name="view_edit">View/Edit</string>
+    <string name="delete">Delete</string>
+    <string name="move">Move</string>
+    <string name="move_menu">Move</string>
+</resources>
